@@ -1,0 +1,27 @@
+li{
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 10px;
+}
+li:active {
+    background-color: #45a549;
+    box-shadow: 0 5px #666;
+  }
+
+.signupbtn{
+    padding: 8px;
+}  
+.signupbtn:hover{
+    background-color: #ccc;
+    color: #fff;
+    border-radius: 10px;
+}  
+
+.signupbtn:active{
+    background-color: #5c8032;
+}
